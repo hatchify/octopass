@@ -749,7 +749,7 @@ const char *octopass_github_team_members_keys(struct config *con)
   int status = octopass_team_members(con, &res);
 
   if (status != 0) {
-    free(res.data);
+    if (res.data) { free(res.data); }
     return NULL;
   }
   root = json_loads(res.data, 0, &error);

@@ -11,7 +11,7 @@ LIBDIR=$(PREFIX)/lib
 endif
 BINDIR=$(PREFIX)/bin
 BUILD=tmp/libs
-CACHE=/var/cache/octopass
+CACHE=tmp/cache
 
 DIST ?= unknown
 SOURCES_RPM=Makefile octopass.h octopass*.c nss_octopass*.c octopass.conf.example COPYING selinux/octopass.pp

@@ -1,8 +1,13 @@
+octopass (0.7.2-1) bionic; urgency=medium
+
+  * Stop freeing memory on error
+
+ -- djeebus <joe@djeebus.net>  Thu, 8 Feb 2021 14:17:00 -0500
 octopass (0.7.1-1) bionic; urgency=medium
 
-    * Resolve free segfault
+  * Resolve free segfault
 
--- djeebus <joe@djeebus.net>  Thu, 4 Feb 2021 17:17:00 -05:00
+ -- djeebus <joe@djeebus.net>  Thu, 4 Feb 2021 17:17:00 -0500
 octopass (0.7.0-1) bionic; urgency=medium
 
   * Resolve a problem of cache file permission
